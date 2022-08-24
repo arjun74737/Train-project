@@ -34,6 +34,61 @@ setcolor(RED);
 setfillstyle(SOLID_FILL,RED);
 arc(getmaxx()/2,getmaxy()+255,0,180,400);
 line(50,getmaxy()-155,50,getmaxy()-43);
+line(100,getmaxy()-155,100,getmaxy()-78);
+line(150,getmaxy()-155,150,getmaxy()-108);
+line(200,getmaxy()-155,200,getmaxy()-125);
+line(250,getmaxy()-155,250,getmaxy()-140);
+line(300,getmaxy()-155,300,getmaxy()-145);
+line(350,getmaxy()-155,350,getmaxy()-144);
+line(400,getmaxy()-155,400,getmaxy()-138);
+line(450,getmaxy()-155,450,getmaxy()-125);
+line(500,getmaxy()-155,500,getmaxy()-103);
+line(550,getmaxy()-155,550,getmaxy()-72);
+line(600,getmaxy()-155,600,getmaxy()-32);
+line(50,getmaxy()-155,100,getmaxy()-78);
+line(100,getmaxy()-155,150,getmaxy()-109);
+line(150,getmaxy()-155,200,getmaxy()-125);
+line(200,getmaxy()-155,250,getmaxy()-139);
+line(250,getmaxy()-155,300,getmaxy()-145);
+line(300,getmaxy()-155,350,getmaxy()-145);
+line(350,getmaxy()-155,400,getmaxy()-138);
+line(400,getmaxy()-155,450,getmaxy()-124);
+line(450,getmaxy()-155,500,getmaxy()-102);
+line(500,getmaxy()-155,550,getmaxy()-72);
+line(550,getmaxy()-155,600,getmaxy()-30);
+line(600,getmaxy()-155,650,getmaxy());
+line(100,getmaxy()-155,50,getmaxy()-40);
+line(150,getmaxy()-155,100,getmaxy()-79);
+line(200,getmaxy()-155,150,getmaxy()-109);
+line(250,getmaxy()-155,200,getmaxy()-125);
+line(300,getmaxy()-155,250,getmaxy()-140);
+line(350,getmaxy()-155,300,getmaxy()-145);
+line(400,getmaxy()-155,350,getmaxy()-143);
+line(450,getmaxy()-155,400,getmaxy()-135);
+line(500,getmaxy()-155,450,getmaxy()-122);
+line(550,getmaxy()-155,500,getmaxy()-105);
+line(600,getmaxy()-155,550,getmaxy()-69);
+line(650,getmaxy()-155,600,getmaxy()-29);
+   // train
+  // last boogie
 
-     getch();
+setcolor(RED);
+setfillstyle(SOLID_FILL,RED);
+rectangle(50,getmaxy()-180,120,getmaxy()-220);
+line(120,getmaxy()-200,50,getmaxy()-200);
+floodfill(118,getmaxy()-198,RED);
+setcolor(BLUE);
+setfillstyle(SOLID_FILL,BLUE);
+pieslice(1,getmaxy()-165,0,360,11);
+pieslice(12,getmaxy()-165,0,360,3);
+
+
+
+
+
+
+
+
+
+    getch();
      }
