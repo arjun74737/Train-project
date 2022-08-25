@@ -79,13 +79,47 @@ line(120,getmaxy()-200,50,getmaxy()-200);
 floodfill(118,getmaxy()-198,RED);
 setcolor(BLUE);
 setfillstyle(SOLID_FILL,BLUE);
-pieslice(1,getmaxy()-165,0,360,11);
-pieslice(12,getmaxy()-165,0,360,3);
+pieslice(65,getmaxy()-173,0,360,11);
+pieslice(100,getmaxy()-173,0,360,11);
+line(120,getmaxy()-200,150,getmaxy()-200);
+line(120,getmaxy()-190,150,getmaxy()-190);
+       //second last boogie
+setcolor(RED);
+setfillstyle(SOLID_FILL,RED);
+rectangle(150,getmaxy()-180,220,getmaxy()-220);
+line(220,getmaxy()-200,150,getmaxy()-200);
+floodfill(200,getmaxy()-198,RED);
+setcolor(BLUE);
+setfillstyle(SOLID_FILL,BLUE);
+pieslice(170,getmaxy()-173,0,360,11);
+pieslice(205,getmaxy()-173,0,360,11);
+line(220,getmaxy()-200,250,getmaxy()-200);
+line(220,getmaxy()-190,250,getmaxy()-190);
+	 // third boogie
+setcolor(RED);
+setfillstyle(SOLID_FILL,RED);
+rectangle(250,getmaxy()-180,285,getmaxy()-240);
+//line(320,getmaxy()-200,250,getmaxy()-200);
+floodfill(252,getmaxy()-200,RED);
+setcolor(BLUE);
+setfillstyle(SOLID_FILL,BLUE);
+pieslice(265,getmaxy()-180,0,360,16);
+//pieslice(290,getmaxy()-173,0,360,11);
+//line(220,getmaxy()-200,250,getmaxy()-200);
+//line(220,getmaxy()-190,250,getmaxy()-190);
+setcolor(RED);
+setfillstyle(SOLID_FILL,RED);
+rectangle(280,getmaxy()-220,330,getmaxy()-180);
+floodfill(292,getmaxy()-218,RED);
+setcolor(BLUE);
+setfillstyle(SOLID_FILL,BLUE);
 
-
-
-
-
+pieslice(296,getmaxy()-172,0,360,12);
+pieslice(315,getmaxy()-173,0,360,11);
+      //engine
+//setcolor(BROWN);
+//setfillstyle(SOLID_FILL,BROWN);
+//rectangle
 
 
 
