@@ -99,14 +99,11 @@ line(220,getmaxy()-190,250,getmaxy()-190);
 setcolor(RED);
 setfillstyle(SOLID_FILL,RED);
 rectangle(250,getmaxy()-180,285,getmaxy()-240);
-//line(320,getmaxy()-200,250,getmaxy()-200);
 floodfill(252,getmaxy()-200,RED);
 setcolor(BLUE);
 setfillstyle(SOLID_FILL,BLUE);
-pieslice(265,getmaxy()-180,0,360,16);
-//pieslice(290,getmaxy()-173,0,360,11);
-//line(220,getmaxy()-200,250,getmaxy()-200);
-//line(220,getmaxy()-190,250,getmaxy()-190);
+pieslice(265,getmaxy()-175,0,360,14);
+rectangle(300,getmaxy()-220,330,getmaxy()-300);
 setcolor(RED);
 setfillstyle(SOLID_FILL,RED);
 rectangle(280,getmaxy()-220,330,getmaxy()-180);
@@ -114,15 +111,20 @@ floodfill(292,getmaxy()-218,RED);
 setcolor(BLUE);
 setfillstyle(SOLID_FILL,BLUE);
 
-pieslice(296,getmaxy()-172,0,360,12);
-pieslice(315,getmaxy()-173,0,360,11);
-      //engine
-//setcolor(BROWN);
-//setfillstyle(SOLID_FILL,BROWN);
-//rectangle
+pieslice(295,getmaxy()-172,0,360,12);
+pieslice(321,getmaxy()-173,0,360,11);
+      //engine of the train
 
-
-
-
+rectangle(290,getmaxy()-260,305,getmaxy()-220);
+floodfill(295,getmaxy()-258,BLUE);
+pieslice(331,getmaxy()-200,270,360,19);
+pieslice(331,getmaxy()-200,0,90,19);
+setcolor(WHITE);
+setfillstyle(SOLID_FILL,WHITE);
+line(290,getmaxy()-280,300,getmaxy()-280);
+line(290,getmaxy()-270,300,getmaxy()-270);
+line(280,getmaxy()-275,290,getmaxy()-275);
+line(280,getmaxy()-265,290,getmaxy()-265);
+line(293,getmaxy()-263,303,getmaxy()-263);
     getch();
      }
